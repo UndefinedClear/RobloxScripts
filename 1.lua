@@ -9,8 +9,11 @@
 
 -- Instances
 
-local menu = Instance.new("Frame")
+local ScreenGui = Instance.new("ScreenGui")
+local open = Instance.new("TextButton")
 local UICorner = Instance.new("UICorner")
+local menu = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
 local close = Instance.new("TextButton")
 local Text = Instance.new("Folder")
 local Text1 = Instance.new("TextLabel")
@@ -22,102 +25,123 @@ local Menu = Instance.new("Folder")
 local menu1 = Instance.new("ScrollingFrame")
 local speed = Instance.new("Folder")
 local Box = Instance.new("TextBox")
-local UICorner_2 = Instance.new("UICorner")
-local confirm = Instance.new("TextButton")
 local UICorner_3 = Instance.new("UICorner")
+local confirm = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
 local jump = Instance.new("Folder")
 local Box_2 = Instance.new("TextBox")
-local UICorner_4 = Instance.new("UICorner")
-local confirm_2 = Instance.new("TextButton")
 local UICorner_5 = Instance.new("UICorner")
+local confirm_2 = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
 local health = Instance.new("Folder")
 local Box_3 = Instance.new("TextBox")
-local UICorner_6 = Instance.new("UICorner")
-local confirm_3 = Instance.new("TextButton")
 local UICorner_7 = Instance.new("UICorner")
+local confirm_3 = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
 local kill = Instance.new("Folder")
 local kill_2 = Instance.new("TextButton")
-local UICorner_8 = Instance.new("UICorner")
+local UICorner_9 = Instance.new("UICorner")
 local Fly = Instance.new("Folder")
 local fly = Instance.new("TextButton")
-local UICorner_9 = Instance.new("UICorner")
-local fly2 = Instance.new("TextButton")
 local UICorner_10 = Instance.new("UICorner")
+local fly2 = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
 local Text_2 = Instance.new("TextLabel")
 local menu2 = Instance.new("ScrollingFrame")
 local chat = Instance.new("Folder")
 local on = Instance.new("TextButton")
-local UICorner_11 = Instance.new("UICorner")
-local off = Instance.new("TextButton")
 local UICorner_12 = Instance.new("UICorner")
+local off = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
 local leaderboard = Instance.new("Folder")
 local on_2 = Instance.new("TextButton")
-local UICorner_13 = Instance.new("UICorner")
-local off_2 = Instance.new("TextButton")
 local UICorner_14 = Instance.new("UICorner")
+local off_2 = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
 local Text_3 = Instance.new("Folder")
 local Text1_2 = Instance.new("TextLabel")
 local Text2_2 = Instance.new("TextLabel")
 local menu3 = Instance.new("ScrollingFrame")
 local music = Instance.new("Folder")
 local Box_4 = Instance.new("TextBox")
-local UICorner_15 = Instance.new("UICorner")
-local set = Instance.new("TextButton")
 local UICorner_16 = Instance.new("UICorner")
-local create = Instance.new("TextButton")
+local set = Instance.new("TextButton")
 local UICorner_17 = Instance.new("UICorner")
-local stop = Instance.new("TextButton")
+local create = Instance.new("TextButton")
 local UICorner_18 = Instance.new("UICorner")
-local play = Instance.new("TextButton")
+local stop = Instance.new("TextButton")
 local UICorner_19 = Instance.new("UICorner")
+local play = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
 local Text_4 = Instance.new("TextLabel")
 local set2 = Instance.new("TextButton")
-local UICorner_20 = Instance.new("UICorner")
-local Box2 = Instance.new("TextBox")
 local UICorner_21 = Instance.new("UICorner")
+local Box2 = Instance.new("TextBox")
+local UICorner_22 = Instance.new("UICorner")
 local Text_5 = Instance.new("TextLabel")
 local troll = Instance.new("TextButton")
-local UICorner_22 = Instance.new("UICorner")
-local troll_2 = Instance.new("TextButton")
 local UICorner_23 = Instance.new("UICorner")
-local troll_3 = Instance.new("TextButton")
+local troll_2 = Instance.new("TextButton")
 local UICorner_24 = Instance.new("UICorner")
-local troll_4 = Instance.new("TextButton")
+local troll_3 = Instance.new("TextButton")
 local UICorner_25 = Instance.new("UICorner")
-local troll_5 = Instance.new("TextButton")
+local troll_4 = Instance.new("TextButton")
 local UICorner_26 = Instance.new("UICorner")
-local troll_6 = Instance.new("TextButton")
+local troll_5 = Instance.new("TextButton")
 local UICorner_27 = Instance.new("UICorner")
-local troll_7 = Instance.new("TextButton")
+local troll_6 = Instance.new("TextButton")
 local UICorner_28 = Instance.new("UICorner")
-local PASS = Instance.new("TextButton")
+local troll_7 = Instance.new("TextButton")
 local UICorner_29 = Instance.new("UICorner")
+local PASS = Instance.new("TextButton")
+local UICorner_30 = Instance.new("UICorner")
 local menu4 = Instance.new("ScrollingFrame")
 local troll_8 = Instance.new("Folder")
 local Text_6 = Instance.new("TextLabel")
 local troll_9 = Instance.new("TextButton")
-local UICorner_30 = Instance.new("UICorner")
-local troll_10 = Instance.new("TextButton")
 local UICorner_31 = Instance.new("UICorner")
-local troll_11 = Instance.new("TextButton")
+local troll_10 = Instance.new("TextButton")
 local UICorner_32 = Instance.new("UICorner")
-local troll_12 = Instance.new("TextButton")
+local troll_11 = Instance.new("TextButton")
 local UICorner_33 = Instance.new("UICorner")
-local troll_13 = Instance.new("TextButton")
+local troll_12 = Instance.new("TextButton")
 local UICorner_34 = Instance.new("UICorner")
-local troll_14 = Instance.new("TextButton")
+local troll_13 = Instance.new("TextButton")
 local UICorner_35 = Instance.new("UICorner")
+local troll_14 = Instance.new("TextButton")
+local UICorner_36 = Instance.new("UICorner")
 local Tip = Instance.new("TextLabel")
 local Bar = Instance.new("Frame")
 local Bar2 = Instance.new("Frame")
-local UICorner_36 = Instance.new("UICorner")
 local UICorner_37 = Instance.new("UICorner")
+local UICorner_38 = Instance.new("UICorner")
 local Percentage = Instance.new("TextLabel")
 
 -- Properties
 
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+open.Name = "open"
+open.Parent = ScreenGui
+open.BackgroundColor3 = Color3.new(0.933333, 0.203922, 1)
+open.BorderColor3 = Color3.new(0, 0, 0)
+open.BorderSizePixel = 2
+open.Position = UDim2.new(0, 645, 0, 126)
+open.Size = UDim2.new(0, 50, 0, 50)
+open.Font = Enum.Font.ArialBold
+open.Text = "M"
+open.TextColor3 = Color3.new(1, 1, 1)
+open.TextScaled = true
+open.TextSize = 14
+open.TextTransparency = 0.2199999988079071
+open.TextWrapped = true
+
+UICorner.Parent = open
+UICorner.CornerRadius = UDim.new(0.0500000007, 8)
+
 menu.Name = "menu"
-menu.Parent = game.StarterGui.ScreenGui
+menu.Parent = ScreenGui
 menu.BackgroundColor3 = Color3.new(0, 0, 0)
 menu.BackgroundTransparency = 0.5
 menu.BorderColor3 = Color3.new(1, 0, 0)
@@ -126,8 +150,8 @@ menu.Position = UDim2.new(0, 128, 0, 106)
 menu.Size = UDim2.new(0, 882, 0, 517)
 menu.Visible = false
 
-UICorner.Parent = menu
-UICorner.CornerRadius = UDim.new(0.0500000007, 1)
+UICorner_2.Parent = menu
+UICorner_2.CornerRadius = UDim.new(0.0500000007, 1)
 
 close.Name = "close"
 close.Parent = menu
@@ -253,8 +277,8 @@ Box.TextColor3 = Color3.new(1, 1, 1)
 Box.TextSize = 35
 Box.TextWrapped = true
 
-UICorner_2.Parent = Box
-UICorner_2.CornerRadius = UDim.new(1, 8)
+UICorner_3.Parent = Box
+UICorner_3.CornerRadius = UDim.new(1, 8)
 
 confirm.Name = "confirm"
 confirm.Parent = speed
@@ -270,8 +294,8 @@ confirm.TextScaled = true
 confirm.TextSize = 14
 confirm.TextWrapped = true
 
-UICorner_3.Parent = confirm
-UICorner_3.CornerRadius = UDim.new(1, 8)
+UICorner_4.Parent = confirm
+UICorner_4.CornerRadius = UDim.new(1, 8)
 
 jump.Name = "jump"
 jump.Parent = menu1
@@ -290,8 +314,8 @@ Box_2.TextColor3 = Color3.new(1, 1, 1)
 Box_2.TextSize = 35
 Box_2.TextWrapped = true
 
-UICorner_4.Parent = Box_2
-UICorner_4.CornerRadius = UDim.new(1, 8)
+UICorner_5.Parent = Box_2
+UICorner_5.CornerRadius = UDim.new(1, 8)
 
 confirm_2.Name = "confirm"
 confirm_2.Parent = jump
@@ -307,8 +331,8 @@ confirm_2.TextScaled = true
 confirm_2.TextSize = 14
 confirm_2.TextWrapped = true
 
-UICorner_5.Parent = confirm_2
-UICorner_5.CornerRadius = UDim.new(1, 8)
+UICorner_6.Parent = confirm_2
+UICorner_6.CornerRadius = UDim.new(1, 8)
 
 health.Name = "health"
 health.Parent = menu1
@@ -327,8 +351,8 @@ Box_3.TextColor3 = Color3.new(1, 1, 1)
 Box_3.TextSize = 35
 Box_3.TextWrapped = true
 
-UICorner_6.Parent = Box_3
-UICorner_6.CornerRadius = UDim.new(1, 8)
+UICorner_7.Parent = Box_3
+UICorner_7.CornerRadius = UDim.new(1, 8)
 
 confirm_3.Name = "confirm"
 confirm_3.Parent = health
@@ -344,8 +368,8 @@ confirm_3.TextScaled = true
 confirm_3.TextSize = 14
 confirm_3.TextWrapped = true
 
-UICorner_7.Parent = confirm_3
-UICorner_7.CornerRadius = UDim.new(1, 8)
+UICorner_8.Parent = confirm_3
+UICorner_8.CornerRadius = UDim.new(1, 8)
 
 kill.Name = "kill"
 kill.Parent = menu1
@@ -364,8 +388,8 @@ kill_2.TextScaled = true
 kill_2.TextSize = 14
 kill_2.TextWrapped = true
 
-UICorner_8.Parent = kill_2
-UICorner_8.CornerRadius = UDim.new(1, 8)
+UICorner_9.Parent = kill_2
+UICorner_9.CornerRadius = UDim.new(1, 8)
 
 Fly.Name = "Fly"
 Fly.Parent = menu1
@@ -384,8 +408,8 @@ fly.TextScaled = true
 fly.TextSize = 14
 fly.TextWrapped = true
 
-UICorner_9.Parent = fly
-UICorner_9.CornerRadius = UDim.new(1, 8)
+UICorner_10.Parent = fly
+UICorner_10.CornerRadius = UDim.new(1, 8)
 
 fly2.Name = "fly2"
 fly2.Parent = Fly
@@ -401,8 +425,8 @@ fly2.TextScaled = true
 fly2.TextSize = 14
 fly2.TextWrapped = true
 
-UICorner_10.Parent = fly2
-UICorner_10.CornerRadius = UDim.new(1, 8)
+UICorner_11.Parent = fly2
+UICorner_11.CornerRadius = UDim.new(1, 8)
 
 Text_2.Name = "Text"
 Text_2.Parent = Fly
@@ -447,8 +471,8 @@ on.TextScaled = true
 on.TextSize = 14
 on.TextWrapped = true
 
-UICorner_11.Parent = on
-UICorner_11.CornerRadius = UDim.new(1, 8)
+UICorner_12.Parent = on
+UICorner_12.CornerRadius = UDim.new(1, 8)
 
 off.Name = "off"
 off.Parent = chat
@@ -464,8 +488,8 @@ off.TextScaled = true
 off.TextSize = 14
 off.TextWrapped = true
 
-UICorner_12.Parent = off
-UICorner_12.CornerRadius = UDim.new(1, 8)
+UICorner_13.Parent = off
+UICorner_13.CornerRadius = UDim.new(1, 8)
 
 leaderboard.Name = "leaderboard"
 leaderboard.Parent = menu2
@@ -484,8 +508,8 @@ on_2.TextScaled = true
 on_2.TextSize = 14
 on_2.TextWrapped = true
 
-UICorner_13.Parent = on_2
-UICorner_13.CornerRadius = UDim.new(1, 8)
+UICorner_14.Parent = on_2
+UICorner_14.CornerRadius = UDim.new(1, 8)
 
 off_2.Name = "off"
 off_2.Parent = leaderboard
@@ -501,8 +525,8 @@ off_2.TextScaled = true
 off_2.TextSize = 14
 off_2.TextWrapped = true
 
-UICorner_14.Parent = off_2
-UICorner_14.CornerRadius = UDim.new(1, 8)
+UICorner_15.Parent = off_2
+UICorner_15.CornerRadius = UDim.new(1, 8)
 
 Text_3.Name = "Text"
 Text_3.Parent = menu2
@@ -566,8 +590,8 @@ Box_4.TextColor3 = Color3.new(1, 1, 1)
 Box_4.TextSize = 35
 Box_4.TextWrapped = true
 
-UICorner_15.Parent = Box_4
-UICorner_15.CornerRadius = UDim.new(1, 8)
+UICorner_16.Parent = Box_4
+UICorner_16.CornerRadius = UDim.new(1, 8)
 
 set.Name = "set"
 set.Parent = music
@@ -583,8 +607,8 @@ set.TextScaled = true
 set.TextSize = 14
 set.TextWrapped = true
 
-UICorner_16.Parent = set
-UICorner_16.CornerRadius = UDim.new(1, 8)
+UICorner_17.Parent = set
+UICorner_17.CornerRadius = UDim.new(1, 8)
 
 create.Name = "create"
 create.Parent = music
@@ -600,8 +624,8 @@ create.TextScaled = true
 create.TextSize = 14
 create.TextWrapped = true
 
-UICorner_17.Parent = create
-UICorner_17.CornerRadius = UDim.new(1, 8)
+UICorner_18.Parent = create
+UICorner_18.CornerRadius = UDim.new(1, 8)
 
 stop.Name = "stop"
 stop.Parent = music
@@ -617,8 +641,8 @@ stop.TextScaled = true
 stop.TextSize = 14
 stop.TextWrapped = true
 
-UICorner_18.Parent = stop
-UICorner_18.CornerRadius = UDim.new(1, 8)
+UICorner_19.Parent = stop
+UICorner_19.CornerRadius = UDim.new(1, 8)
 
 play.Name = "play"
 play.Parent = music
@@ -634,8 +658,8 @@ play.TextScaled = true
 play.TextSize = 14
 play.TextWrapped = true
 
-UICorner_19.Parent = play
-UICorner_19.CornerRadius = UDim.new(1, 8)
+UICorner_20.Parent = play
+UICorner_20.CornerRadius = UDim.new(1, 8)
 
 Text_4.Name = "Text"
 Text_4.Parent = music
@@ -666,8 +690,8 @@ set2.TextScaled = true
 set2.TextSize = 14
 set2.TextWrapped = true
 
-UICorner_20.Parent = set2
-UICorner_20.CornerRadius = UDim.new(1, 8)
+UICorner_21.Parent = set2
+UICorner_21.CornerRadius = UDim.new(1, 8)
 
 Box2.Name = "Box2"
 Box2.Parent = music
@@ -683,8 +707,8 @@ Box2.TextColor3 = Color3.new(1, 1, 1)
 Box2.TextSize = 35
 Box2.TextWrapped = true
 
-UICorner_21.Parent = Box2
-UICorner_21.CornerRadius = UDim.new(1, 8)
+UICorner_22.Parent = Box2
+UICorner_22.CornerRadius = UDim.new(1, 8)
 
 Text_5.Name = "Text"
 Text_5.Parent = music
@@ -715,8 +739,8 @@ troll.TextScaled = true
 troll.TextSize = 14
 troll.TextWrapped = true
 
-UICorner_22.Parent = troll
-UICorner_22.CornerRadius = UDim.new(1, 8)
+UICorner_23.Parent = troll
+UICorner_23.CornerRadius = UDim.new(1, 8)
 
 troll_2.Name = "troll"
 troll_2.Parent = music
@@ -732,8 +756,8 @@ troll_2.TextScaled = true
 troll_2.TextSize = 14
 troll_2.TextWrapped = true
 
-UICorner_23.Parent = troll_2
-UICorner_23.CornerRadius = UDim.new(1, 8)
+UICorner_24.Parent = troll_2
+UICorner_24.CornerRadius = UDim.new(1, 8)
 
 troll_3.Name = "troll"
 troll_3.Parent = music
@@ -749,8 +773,8 @@ troll_3.TextScaled = true
 troll_3.TextSize = 14
 troll_3.TextWrapped = true
 
-UICorner_24.Parent = troll_3
-UICorner_24.CornerRadius = UDim.new(1, 8)
+UICorner_25.Parent = troll_3
+UICorner_25.CornerRadius = UDim.new(1, 8)
 
 troll_4.Name = "troll"
 troll_4.Parent = music
@@ -766,8 +790,8 @@ troll_4.TextScaled = true
 troll_4.TextSize = 14
 troll_4.TextWrapped = true
 
-UICorner_25.Parent = troll_4
-UICorner_25.CornerRadius = UDim.new(1, 8)
+UICorner_26.Parent = troll_4
+UICorner_26.CornerRadius = UDim.new(1, 8)
 
 troll_5.Name = "troll"
 troll_5.Parent = music
@@ -783,8 +807,8 @@ troll_5.TextScaled = true
 troll_5.TextSize = 14
 troll_5.TextWrapped = true
 
-UICorner_26.Parent = troll_5
-UICorner_26.CornerRadius = UDim.new(1, 8)
+UICorner_27.Parent = troll_5
+UICorner_27.CornerRadius = UDim.new(1, 8)
 
 troll_6.Name = "troll"
 troll_6.Parent = music
@@ -800,8 +824,8 @@ troll_6.TextScaled = true
 troll_6.TextSize = 14
 troll_6.TextWrapped = true
 
-UICorner_27.Parent = troll_6
-UICorner_27.CornerRadius = UDim.new(1, 8)
+UICorner_28.Parent = troll_6
+UICorner_28.CornerRadius = UDim.new(1, 8)
 
 troll_7.Name = "troll"
 troll_7.Parent = music
@@ -817,8 +841,8 @@ troll_7.TextScaled = true
 troll_7.TextSize = 14
 troll_7.TextWrapped = true
 
-UICorner_28.Parent = troll_7
-UICorner_28.CornerRadius = UDim.new(1, 8)
+UICorner_29.Parent = troll_7
+UICorner_29.CornerRadius = UDim.new(1, 8)
 
 PASS.Name = "PASS"
 PASS.Parent = Menu
@@ -834,8 +858,8 @@ PASS.TextScaled = true
 PASS.TextSize = 14
 PASS.TextWrapped = true
 
-UICorner_29.Parent = PASS
-UICorner_29.CornerRadius = UDim.new(1, 8)
+UICorner_30.Parent = PASS
+UICorner_30.CornerRadius = UDim.new(1, 8)
 
 menu4.Name = "menu4"
 menu4.Parent = Menu
@@ -881,8 +905,8 @@ troll_9.TextScaled = true
 troll_9.TextSize = 14
 troll_9.TextWrapped = true
 
-UICorner_30.Parent = troll_9
-UICorner_30.CornerRadius = UDim.new(1, 8)
+UICorner_31.Parent = troll_9
+UICorner_31.CornerRadius = UDim.new(1, 8)
 
 troll_10.Name = "troll"
 troll_10.Parent = troll_8
@@ -898,8 +922,8 @@ troll_10.TextScaled = true
 troll_10.TextSize = 14
 troll_10.TextWrapped = true
 
-UICorner_31.Parent = troll_10
-UICorner_31.CornerRadius = UDim.new(1, 8)
+UICorner_32.Parent = troll_10
+UICorner_32.CornerRadius = UDim.new(1, 8)
 
 troll_11.Name = "troll"
 troll_11.Parent = troll_8
@@ -915,8 +939,8 @@ troll_11.TextScaled = true
 troll_11.TextSize = 14
 troll_11.TextWrapped = true
 
-UICorner_32.Parent = troll_11
-UICorner_32.CornerRadius = UDim.new(1, 8)
+UICorner_33.Parent = troll_11
+UICorner_33.CornerRadius = UDim.new(1, 8)
 
 troll_12.Name = "troll"
 troll_12.Parent = troll_8
@@ -932,8 +956,8 @@ troll_12.TextScaled = true
 troll_12.TextSize = 14
 troll_12.TextWrapped = true
 
-UICorner_33.Parent = troll_12
-UICorner_33.CornerRadius = UDim.new(1, 8)
+UICorner_34.Parent = troll_12
+UICorner_34.CornerRadius = UDim.new(1, 8)
 
 troll_13.Name = "troll"
 troll_13.Parent = troll_8
@@ -949,8 +973,8 @@ troll_13.TextScaled = true
 troll_13.TextSize = 14
 troll_13.TextWrapped = true
 
-UICorner_34.Parent = troll_13
-UICorner_34.CornerRadius = UDim.new(1, 8)
+UICorner_35.Parent = troll_13
+UICorner_35.CornerRadius = UDim.new(1, 8)
 
 troll_14.Name = "troll"
 troll_14.Parent = troll_8
@@ -966,8 +990,8 @@ troll_14.TextScaled = true
 troll_14.TextSize = 14
 troll_14.TextWrapped = true
 
-UICorner_35.Parent = troll_14
-UICorner_35.CornerRadius = UDim.new(1, 8)
+UICorner_36.Parent = troll_14
+UICorner_36.CornerRadius = UDim.new(1, 8)
 
 Tip.Name = "Tip"
 Tip.Parent = menu
@@ -999,11 +1023,11 @@ Bar2.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
 Bar2.BorderSizePixel = 0
 Bar2.Size = UDim2.new(0, 0, 1, 0)
 
-UICorner_36.Parent = Bar2
-UICorner_36.CornerRadius = UDim.new(0.5, 0)
-
-UICorner_37.Parent = Bar
+UICorner_37.Parent = Bar2
 UICorner_37.CornerRadius = UDim.new(0.5, 0)
+
+UICorner_38.Parent = Bar
+UICorner_38.CornerRadius = UDim.new(0.5, 0)
 
 Percentage.Name = "Percentage"
 Percentage.Parent = Bar
@@ -1022,7 +1046,20 @@ Percentage.TextWrapped = true
 
 -- Scripts
 
-local function WOUDJ_fake_script() -- close.close 
+local function LRMZW_fake_script() -- open.open 
+	local script = Instance.new('LocalScript', open)
+
+	function open()
+		script.Parent.Parent.menu.Visible = true
+		script.Parent.Visible = false
+		game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Backpack, false)
+		game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.EmotesMenu, false)
+	end
+	
+	script.Parent.MouseButton1Click:Connect(open)
+end
+coroutine.wrap(LRMZW_fake_script)()
+local function QEED_fake_script() -- close.close 
 	local script = Instance.new('LocalScript', close)
 
 	function close()
@@ -1032,8 +1069,8 @@ local function WOUDJ_fake_script() -- close.close
 	
 	script.Parent.MouseButton1Click:Connect(close)
 end
-coroutine.wrap(WOUDJ_fake_script)()
-local function VQGU_fake_script() -- confirm.OnClick 
+coroutine.wrap(QEED_fake_script)()
+local function KQPA_fake_script() -- confirm.OnClick 
 	local script = Instance.new('LocalScript', confirm)
 
 	function OnClick()
@@ -1045,8 +1082,8 @@ local function VQGU_fake_script() -- confirm.OnClick
 	
 	script.Parent.MouseButton1Click:Connect(OnClick)
 end
-coroutine.wrap(VQGU_fake_script)()
-local function AGXXAT_fake_script() -- confirm_2.OnClick 
+coroutine.wrap(KQPA_fake_script)()
+local function ZYLJ_fake_script() -- confirm_2.OnClick 
 	local script = Instance.new('LocalScript', confirm_2)
 
 	function OnClick()
@@ -1058,8 +1095,8 @@ local function AGXXAT_fake_script() -- confirm_2.OnClick
 	
 	script.Parent.MouseButton1Click:Connect(OnClick)
 end
-coroutine.wrap(AGXXAT_fake_script)()
-local function UNTT_fake_script() -- confirm_3.OnClick 
+coroutine.wrap(ZYLJ_fake_script)()
+local function QZOAIZ_fake_script() -- confirm_3.OnClick 
 	local script = Instance.new('LocalScript', confirm_3)
 
 	function OnClick()
@@ -1071,8 +1108,8 @@ local function UNTT_fake_script() -- confirm_3.OnClick
 	
 	script.Parent.MouseButton1Click:Connect(OnClick)
 end
-coroutine.wrap(UNTT_fake_script)()
-local function SICB_fake_script() -- kill_2.OnClick 
+coroutine.wrap(QZOAIZ_fake_script)()
+local function OITZ_fake_script() -- kill_2.OnClick 
 	local script = Instance.new('LocalScript', kill_2)
 
 	function OnClick()
@@ -1083,8 +1120,8 @@ local function SICB_fake_script() -- kill_2.OnClick
 	
 	script.Parent.MouseButton1Click:Connect(OnClick)
 end
-coroutine.wrap(SICB_fake_script)()
-local function ADVBZ_fake_script() -- fly.OnClick 
+coroutine.wrap(OITZ_fake_script)()
+local function JCBQSUO_fake_script() -- fly.OnClick 
 	local script = Instance.new('LocalScript', fly)
 
 	function OnClick()
@@ -1111,8 +1148,8 @@ local function ADVBZ_fake_script() -- fly.OnClick
 	script.Parent.MouseButton1Click:Connect(OnClick)
 	
 end
-coroutine.wrap(ADVBZ_fake_script)()
-local function DRABBQ_fake_script() -- fly2.OnClick 
+coroutine.wrap(JCBQSUO_fake_script)()
+local function UYVHUH_fake_script() -- fly2.OnClick 
 	local script = Instance.new('LocalScript', fly2)
 
 	function OnClick()
@@ -1130,8 +1167,8 @@ local function DRABBQ_fake_script() -- fly2.OnClick
 	script.Parent.MouseButton1Click:Connect(OnClick)
 	
 end
-coroutine.wrap(DRABBQ_fake_script)()
-local function OLVA_fake_script() -- on.OnClick 
+coroutine.wrap(UYVHUH_fake_script)()
+local function DXLUPWV_fake_script() -- on.OnClick 
 	local script = Instance.new('LocalScript', on)
 
 	function OnClick()
@@ -1140,8 +1177,8 @@ local function OLVA_fake_script() -- on.OnClick
 	
 	script.Parent.MouseButton1Click:Connect(OnClick)
 end
-coroutine.wrap(OLVA_fake_script)()
-local function OTYN_fake_script() -- off.OnClick 
+coroutine.wrap(DXLUPWV_fake_script)()
+local function NHIUA_fake_script() -- off.OnClick 
 	local script = Instance.new('LocalScript', off)
 
 	function OnClick()
@@ -1150,8 +1187,8 @@ local function OTYN_fake_script() -- off.OnClick
 	
 	script.Parent.MouseButton1Click:Connect(OnClick)
 end
-coroutine.wrap(OTYN_fake_script)()
-local function FHCMD_fake_script() -- on_2.OnClick 
+coroutine.wrap(NHIUA_fake_script)()
+local function KHHRANZ_fake_script() -- on_2.OnClick 
 	local script = Instance.new('LocalScript', on_2)
 
 	function OnClick()
@@ -1160,8 +1197,8 @@ local function FHCMD_fake_script() -- on_2.OnClick
 	
 	script.Parent.MouseButton1Click:Connect(OnClick)
 end
-coroutine.wrap(FHCMD_fake_script)()
-local function ZVUF_fake_script() -- off_2.OnClick 
+coroutine.wrap(KHHRANZ_fake_script)()
+local function OQWYO_fake_script() -- off_2.OnClick 
 	local script = Instance.new('LocalScript', off_2)
 
 	function OnClick()
@@ -1170,8 +1207,8 @@ local function ZVUF_fake_script() -- off_2.OnClick
 	
 	script.Parent.MouseButton1Click:Connect(OnClick)
 end
-coroutine.wrap(ZVUF_fake_script)()
-local function SEKK_fake_script() -- set.OnClick 
+coroutine.wrap(OQWYO_fake_script)()
+local function HCIVYDD_fake_script() -- set.OnClick 
 	local script = Instance.new('LocalScript', set)
 
 	function OnClick()
@@ -1185,8 +1222,8 @@ local function SEKK_fake_script() -- set.OnClick
 	
 	--rbxassetid://--
 end
-coroutine.wrap(SEKK_fake_script)()
-local function TMWWSGO_fake_script() -- create.OnClick 
+coroutine.wrap(HCIVYDD_fake_script)()
+local function XKFRNZF_fake_script() -- create.OnClick 
 	local script = Instance.new('LocalScript', create)
 
 	function OnClick()
@@ -1202,8 +1239,8 @@ local function TMWWSGO_fake_script() -- create.OnClick
 	
 	script.Parent.MouseButton1Click:Connect(OnClick)
 end
-coroutine.wrap(TMWWSGO_fake_script)()
-local function OYLHY_fake_script() -- stop.OnClick 
+coroutine.wrap(XKFRNZF_fake_script)()
+local function HOXO_fake_script() -- stop.OnClick 
 	local script = Instance.new('LocalScript', stop)
 
 	function OnClick()
@@ -1214,8 +1251,8 @@ local function OYLHY_fake_script() -- stop.OnClick
 	
 	script.Parent.MouseButton1Click:Connect(OnClick)
 end
-coroutine.wrap(OYLHY_fake_script)()
-local function LOXJWE_fake_script() -- play.OnClick 
+coroutine.wrap(HOXO_fake_script)()
+local function XIZQ_fake_script() -- play.OnClick 
 	local script = Instance.new('LocalScript', play)
 
 	function OnClick()
@@ -1226,8 +1263,8 @@ local function LOXJWE_fake_script() -- play.OnClick
 	
 	script.Parent.MouseButton1Click:Connect(OnClick)
 end
-coroutine.wrap(LOXJWE_fake_script)()
-local function BHKPC_fake_script() -- set2.OnClick 
+coroutine.wrap(XIZQ_fake_script)()
+local function KCST_fake_script() -- set2.OnClick 
 	local script = Instance.new('LocalScript', set2)
 
 	function OnClick()
@@ -1239,8 +1276,8 @@ local function BHKPC_fake_script() -- set2.OnClick
 	
 	script.Parent.MouseButton1Click:Connect(OnClick)
 end
-coroutine.wrap(BHKPC_fake_script)()
-local function EHOEW_fake_script() -- troll.Script 
+coroutine.wrap(KCST_fake_script)()
+local function IUIC_fake_script() -- troll.Script 
 	local script = Instance.new('Script', troll)
 
 	function OnClick()
@@ -1250,8 +1287,8 @@ local function EHOEW_fake_script() -- troll.Script
 	
 	script.Parent.MouseButton1Click:Connect(OnClick)
 end
-coroutine.wrap(EHOEW_fake_script)()
-local function YKES_fake_script() -- troll_2.Script 
+coroutine.wrap(IUIC_fake_script)()
+local function KHUWDT_fake_script() -- troll_2.Script 
 	local script = Instance.new('Script', troll_2)
 
 	function OnClick()
@@ -1261,8 +1298,8 @@ local function YKES_fake_script() -- troll_2.Script
 	
 	script.Parent.MouseButton1Click:Connect(OnClick)
 end
-coroutine.wrap(YKES_fake_script)()
-local function LPCQPDB_fake_script() -- troll_3.Script 
+coroutine.wrap(KHUWDT_fake_script)()
+local function MKTYXX_fake_script() -- troll_3.Script 
 	local script = Instance.new('Script', troll_3)
 
 	function OnClick()
@@ -1272,8 +1309,8 @@ local function LPCQPDB_fake_script() -- troll_3.Script
 	
 	script.Parent.MouseButton1Click:Connect(OnClick)
 end
-coroutine.wrap(LPCQPDB_fake_script)()
-local function JHKZVXD_fake_script() -- troll_4.Script 
+coroutine.wrap(MKTYXX_fake_script)()
+local function CYULM_fake_script() -- troll_4.Script 
 	local script = Instance.new('Script', troll_4)
 
 	function OnClick()
@@ -1283,8 +1320,8 @@ local function JHKZVXD_fake_script() -- troll_4.Script
 	
 	script.Parent.MouseButton1Click:Connect(OnClick)
 end
-coroutine.wrap(JHKZVXD_fake_script)()
-local function HMXMAAR_fake_script() -- troll_5.Script 
+coroutine.wrap(CYULM_fake_script)()
+local function QLAUU_fake_script() -- troll_5.Script 
 	local script = Instance.new('Script', troll_5)
 
 	function OnClick()
@@ -1294,8 +1331,8 @@ local function HMXMAAR_fake_script() -- troll_5.Script
 	
 	script.Parent.MouseButton1Click:Connect(OnClick)
 end
-coroutine.wrap(HMXMAAR_fake_script)()
-local function ZGGFJMS_fake_script() -- troll_6.Script 
+coroutine.wrap(QLAUU_fake_script)()
+local function RQJF_fake_script() -- troll_6.Script 
 	local script = Instance.new('Script', troll_6)
 
 	function OnClick()
@@ -1305,8 +1342,8 @@ local function ZGGFJMS_fake_script() -- troll_6.Script
 	
 	script.Parent.MouseButton1Click:Connect(OnClick)
 end
-coroutine.wrap(ZGGFJMS_fake_script)()
-local function NRCBN_fake_script() -- troll_7.Script 
+coroutine.wrap(RQJF_fake_script)()
+local function BTOMQ_fake_script() -- troll_7.Script 
 	local script = Instance.new('Script', troll_7)
 
 	function OnClick()
@@ -1316,8 +1353,8 @@ local function NRCBN_fake_script() -- troll_7.Script
 	
 	script.Parent.MouseButton1Click:Connect(OnClick)
 end
-coroutine.wrap(NRCBN_fake_script)()
-local function AOXUFC_fake_script() -- PASS.OnClick 
+coroutine.wrap(BTOMQ_fake_script)()
+local function XHXHS_fake_script() -- PASS.OnClick 
 	local script = Instance.new('LocalScript', PASS)
 
 	-- Замените gamepassId на id вашего gamepass в игре. 
@@ -1336,8 +1373,8 @@ local function AOXUFC_fake_script() -- PASS.OnClick
 		end 
 	end)
 end
-coroutine.wrap(AOXUFC_fake_script)()
-local function LJPWM_fake_script() -- troll_9.Script 
+coroutine.wrap(XHXHS_fake_script)()
+local function GNHOJ_fake_script() -- troll_9.Script 
 	local script = Instance.new('Script', troll_9)
 
 	function OnClick()
@@ -1347,8 +1384,8 @@ local function LJPWM_fake_script() -- troll_9.Script
 	
 	script.Parent.MouseButton1Click:Connect(OnClick)
 end
-coroutine.wrap(LJPWM_fake_script)()
-local function VGNAMW_fake_script() -- troll_10.Script 
+coroutine.wrap(GNHOJ_fake_script)()
+local function EITXURK_fake_script() -- troll_10.Script 
 	local script = Instance.new('Script', troll_10)
 
 	function OnClick()
@@ -1358,8 +1395,8 @@ local function VGNAMW_fake_script() -- troll_10.Script
 	
 	script.Parent.MouseButton1Click:Connect(OnClick)
 end
-coroutine.wrap(VGNAMW_fake_script)()
-local function NPYMZQZ_fake_script() -- troll_11.Script 
+coroutine.wrap(EITXURK_fake_script)()
+local function ZINXVDX_fake_script() -- troll_11.Script 
 	local script = Instance.new('Script', troll_11)
 
 	function OnClick()
@@ -1369,8 +1406,8 @@ local function NPYMZQZ_fake_script() -- troll_11.Script
 	
 	script.Parent.MouseButton1Click:Connect(OnClick)
 end
-coroutine.wrap(NPYMZQZ_fake_script)()
-local function NTOGC_fake_script() -- troll_12.Script 
+coroutine.wrap(ZINXVDX_fake_script)()
+local function CMQDM_fake_script() -- troll_12.Script 
 	local script = Instance.new('Script', troll_12)
 
 	function OnClick()
@@ -1380,8 +1417,8 @@ local function NTOGC_fake_script() -- troll_12.Script
 	
 	script.Parent.MouseButton1Click:Connect(OnClick)
 end
-coroutine.wrap(NTOGC_fake_script)()
-local function UTZPA_fake_script() -- troll_14.Script 
+coroutine.wrap(CMQDM_fake_script)()
+local function OPSJBKD_fake_script() -- troll_14.Script 
 	local script = Instance.new('Script', troll_14)
 
 	function OnClick()
@@ -1391,8 +1428,8 @@ local function UTZPA_fake_script() -- troll_14.Script
 	
 	script.Parent.MouseButton1Click:Connect(OnClick)
 end
-coroutine.wrap(UTZPA_fake_script)()
-local function JEASL_fake_script() -- menu.Manager 
+coroutine.wrap(OPSJBKD_fake_script)()
+local function MLWUNQ_fake_script() -- menu.Manager 
 	local script = Instance.new('LocalScript', menu)
 
 	local bar = script.Parent.Bar
@@ -1409,8 +1446,8 @@ local function JEASL_fake_script() -- menu.Manager
 	--wait(3)
 	--script.Parent.Parent.Parent.Loading:Destroy()
 end
-coroutine.wrap(JEASL_fake_script)()
-local function FUTOAVJ_fake_script() -- Tip.Tips 
+coroutine.wrap(MLWUNQ_fake_script)()
+local function SNEHD_fake_script() -- Tip.Tips 
 	local script = Instance.new('LocalScript', Tip)
 
 	local tip = script.Parent
@@ -1424,5 +1461,5 @@ local function FUTOAVJ_fake_script() -- Tip.Tips
 		tip.Text = "Good luck!"
 	end
 end
-coroutine.wrap(FUTOAVJ_fake_script)()
+coroutine.wrap(SNEHD_fake_script)()
 -- Percentage.Percentage is disabled.
