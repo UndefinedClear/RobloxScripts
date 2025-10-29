@@ -1,5 +1,13 @@
 local Export = {}
 
+-- Initialization
+function init()
+	print("Middleware Library Loaded")
+end
+
+init()
+
+
 -- Player
 function Export.GetLocalPlayer() 
 	return game.Players.LocalPlayer
@@ -59,6 +67,10 @@ end
 
 function Export.Dexplorer()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/MassiveHubs/loadstring/refs/heads/main/DexXenoAndRezware'))()
+end
+
+function Export.InfiniteYield()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end
 
 -- Utility Functions
