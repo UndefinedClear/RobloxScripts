@@ -9,12 +9,29 @@ local runService = game:GetService("RunService")
 
 local holding = false
 local buttonToPress = Enum.KeyCode.R
-local speed = 5 -- скорость движения (можно увеличить)
+local speed = 4 -- скорость движения (можно увеличить)
+
+local speed_of_Y = 18
+local buttonToPressY = Enum.KeyCode.Y
+
+local hum = game.Players.LocalPlayer.Character:FindFirstChildOfClass("Humanoid")
+
+hum.WalkSpeed = speed_of_Y
 
 print("Doors Script by UndefineClear :)")
 print("Press R to teleport")
+print("Press Y to change speed")
 
 -- обработка нажатия
+userInputService.InputBegan:Connect(function(input, processed)
+	if processed then return end
+	if input.KeyCode == buttonToPressY then
+		local hum = game.Players.LocalPlayer.Character:FindFirstChildOfClass("Humanoid")
+
+        hum.WalkSpeed = speed_of_Y
+	end
+end)
+
 userInputService.InputBegan:Connect(function(input, processed)
 	if processed then return end
 	if input.KeyCode == buttonToPress then
