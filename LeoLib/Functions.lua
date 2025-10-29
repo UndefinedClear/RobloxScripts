@@ -87,11 +87,21 @@ function Export.GetPlayerPosition(character: Model)
 	end
 end
 
+-- function Export.TeleportPlayer(character: Model, position: Vector3)
+-- 	local humanoidRootPart = character:FindFirstChild("HumanoidRootPart")
+-- 	if humanoidRootPart then
+-- 		humanoidRootPart.Position = position
+-- 	end
+-- end
+
 function Export.TeleportPlayer(character: Model, position: Vector3)
 	local humanoidRootPart = character:FindFirstChild("HumanoidRootPart")
 	if humanoidRootPart then
-		humanoidRootPart.Position = position
+		humanoidRootPart.CFrame = CFrame.new(position)
+	else
+		warn("HumanoidRootPart not found for character:", character.Name)
 	end
 end
+
 
 return Export
