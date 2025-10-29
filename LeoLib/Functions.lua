@@ -69,6 +69,10 @@ function Export.Dexplorer()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/MassiveHubs/loadstring/refs/heads/main/DexXenoAndRezware'))()
 end
 
+function Export.DoorsNotCoolScript()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/rolezeay/doors/refs/heads/main/hmmmmm"))() 
+end
+
 function Export.InfiniteYield()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end
