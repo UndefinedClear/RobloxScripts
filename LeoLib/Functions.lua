@@ -103,5 +103,12 @@ function Export.TeleportPlayer(character: Model, position: Vector3)
 	end
 end
 
+function Export.TeleportPlayerCFrame(character: Model, newCFrame: CFrame)
+	local root = character:FindFirstChild("HumanoidRootPart")
+	if root then
+		root.CFrame = newCFrame
+	end
+end
+
 
 return Export
